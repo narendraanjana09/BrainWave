@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/fragmentHome">
+
+
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.nsa.brainwave.home.ui.FragmentProfile"
+        android:label="FragmentProfile" />
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.nsa.brainwave.home.ui.FragmentHome"
+        android:label="FragmentHome" >
+
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentSubject"
+            app:destination="@id/fragmentSubject" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentFeedback"
+            app:destination="@id/fragmentFeedback" />
+    </fragment>
+    <dialog
+        android:id="@+id/fragmentProgress"
+        android:name="com.nsa.brainwave.util.FragmentProgress"
+        android:label="FragmentProgress" />
+    <dialog
+        android:id="@+id/fragmentSelectLevel"
+        tools:layout="@layout/fragment_select_level"
+        android:name="com.nsa.brainwave.home.ui.FragmentSelectLevel"
+        android:label="FragmentSelectLevel" >
+        <argument android:name="exam"
+            app:argType="string"/>
+        <argument android:name="subject"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentSelectLevel_to_fragmentTest"
+            app:destination="@id/fragmentTest" />
+    </dialog>
+    <fragment
+        android:id="@+id/fragmentTest"
+        android:name="com.nsa.brainwave.home.ui.test.FragmentTest"
+        android:label="FragmentTest" >
+        <argument
+            android:name="isTest"
+            app:argType="boolean" />
+
+        <argument
+            android:name="TestModel"
+            app:argType="com.nsa.brainwave.home.models.Test.Test" />
+        <action
+            android:id="@+id/action_fragmentTest_to_fragmentScoreCard"
+            app:destination="@id/fragmentScoreCard"
+            app:popUpTo="@id/fragmentTest"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentScoreCard"
+        android:name="com.nsa.brainwave.home.ui.test.FragmentScoreCard"
+        android:label="FragmentScoreCard" >
+        <argument
+            android:name="testReport"
+            app:argType="com.nsa.brainwave.home.models.Report.TestReport" />
+        <action
+            android:id="@+id/action_fragmentScoreCard_to_fragmentTest"
+            app:destination="@id/fragmentTest" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSubject"
+        android:name="com.nsa.brainwave.home.ui.FragmentSubject"
+        android:label="FragmentSubject" >
+        <argument android:name="exam"
+            app:argType="string"/>
+        <argument android:name="subject"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentSubject_to_fragmentSelectLevel"
+            app:destination="@id/fragmentSelectLevel" />
+        <action
+            android:id="@+id/action_fragmentSubject_to_fragmentScoreCard"
+            app:destination="@id/fragmentScoreCard" />
+    </fragment>
+    <dialog
+        android:id="@+id/fragmentFeedback"
+        android:name="com.nsa.brainwave.home.ui.FragmentFeedback"
+        android:label="FragmentFeedback" />
+
+</navigation>

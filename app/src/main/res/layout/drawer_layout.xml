@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exam_card"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/close_drawer_btn"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardBackgroundColor="#7B8FA1"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/exam_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="GATE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/close_drawer_btn"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/back_drawer"
+            app:layout_constraintBottom_toBottomOf="@id/exam_card"
+            app:layout_constraintEnd_toStartOf="@id/exam_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/exam_card" />
+
+        <TextView
+            android:id="@+id/feedback_btn"
+            android:text="Feedback"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/round_bg"
+            app:layout_constraintTop_toBottomOf="@id/close_drawer_btn"
+            android:layout_margin="@dimen/_15sdp"
+            android:drawableTint="@color/white"
+            android:gravity="center"
+            android:paddingStart="@dimen/_20sdp"
+            android:drawableLeft="@drawable/feedback"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"/>
+        <TextView
+            android:id="@+id/show_ad_btn"
+            android:text="Show Ad"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/round_bg"
+            android:backgroundTint="@color/red_light"
+            app:layout_constraintTop_toBottomOf="@id/feedback_btn"
+            android:layout_margin="@dimen/_15sdp"
+            android:drawableTint="@color/white"
+            android:gravity="center"
+            android:paddingStart="@dimen/_20sdp"
+            android:drawableLeft="@drawable/notification"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"/>
+
+        <LinearLayout
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/logout_bg"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+            <TextView
+                android:text="Log Out"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:drawableTint="@color/red"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableRight="@drawable/round_logout_24"
+                android:textSize="@dimen/_18sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

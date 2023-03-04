@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235804622124",
+    "firebase_url": "https://brainwave-442fe-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "brainwave-442fe",
+    "storage_bucket": "brainwave-442fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235804622124:android:269ac9245e753a98f9c089",
+        "android_client_info": {
+          "package_name": "com.nsa.brainwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235804622124-tidn6l41hd3nm7m6ogkp9c3m3mp62tuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nsa.brainwave",
+            "certificate_hash": "35bbeb91441714baac70538428aadbdba670e45e"
+          }
+        },
+        {
+          "client_id": "235804622124-v4bl66jtop7n0pn50ml9aqumbrf73koq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT6wGwLr9m1sbWItvbniwF_Mq2bUe-dXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235804622124-u6g26pjfbb9lghke9935kcdeadb0he0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

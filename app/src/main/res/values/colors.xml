@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#62B18C</color>
+    <color name="green_light">#CEFFE8</color>
+    <color name="green1">#03C988</color>
+    <color name="blue">#4D90C1</color>
+    <color name="blue1">#537FE7</color>
+    <color name="black_light">#757575</color>
+    <color name="black_light1">#4E4E4E</color>
+    <color name="red">#FF3C00</color>
+    <color name="red_light">#FF6D6D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#D6D6D6</color>
+    <color name="yellow_light">#FFDFB8</color>
+    <color name="yellow">#FFB270</color>
+    <color name="yellow_dark">#F99417</color>
+    <color name="data_card_bg">#DFECFF</color>
+    <array name="subjects">
+        <item>#FF6D6D</item>
+        <item>#CE76FE</item>
+        <item>#589CFF</item>
+        <item>#F2921D</item>
+        <item>#86A3B8</item>
+        <item>#00ABE4</item>
+        <item>#00BCD4</item>
+        <item>#673AB7</item>
+        <item>#4CAF50</item>
+        <item>#009688</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BrainWave</string>
+    <string name="webClient">235804622124-v4bl66jtop7n0pn50ml9aqumbrf73koq.apps.googleusercontent.com</string>
+    <string name="open_api_api_key">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</string>
+    <string name="submit_feedback">Feedback</string>
+    <string name="rating_dialog_suggestions">Suggest Us what to improve?</string>
+    <string name="submit_text">Submit</string>
+    <string name="cancel_text">Cancel</string>
+
+    <string name="ads_app_test_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ads_rewarded_test_id">ca-app-pub-3940256099942544/5354046379</string>
+
+    <string name="ads_app_id">ca-app-pub-6992515405283697~4676695695</string>
+    <string name="ads_interstial_id">ca-app-pub-6992515405283697/5434678949</string>
+    <string name="ads_rewarded_id">ca-app-pub-6992515405283697/9441937213</string>
+
+
+</resources>
