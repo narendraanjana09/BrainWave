@@ -3,13 +3,12 @@ BrainWave is an AI-based test preparation app that helps you prepare for various
 
 ## Screenshots
 <img src="https://user-images.githubusercontent.com/60137237/224238279-23baa772-f44b-4ef8-aaef-0ce09a9c9677.jpg" width="100" height="100">
-![Screenshot_20230304-122027_BrainWave](https://user-images.githubusercontent.com/60137237/224238291-3e9c3da1-f562-4f50-a36d-74155b962077.jpg)
-![Screenshot_20230304-122021_BrainWave](https://user-images.githubusercontent.com/60137237/224238293-5094b379-b9b9-4b49-9888-e979f0cdf48c.jpg)
-![Screenshot_20230304-121950_BrainWave](https://user-images.githubusercontent.com/60137237/224238296-ceb25d2b-30d4-4217-8269-794a3f7e993b.jpg)
-![Screenshot_20230304-120512_BrainWave](https://user-images.githubusercontent.com/60137237/224238299-3a05c2ea-8c80-4c57-b7e4-eb7bfbbf5deb.jpg)
-![Screenshot_20230304-120507_BrainWave](https://user-images.githubusercontent.com/60137237/224238303-e450300b-fef9-4ce6-a986-58acf52d0a3f.jpg)
-![Screenshot_20230304-120447_BrainWave](https://user-images.githubusercontent.com/60137237/224238308-02bb2fea-0180-4a1b-8deb-4a85d505bd14.jpg)
-
+<img src="https://user-images.githubusercontent.com/60137237/224238291-3e9c3da1-f562-4f50-a36d-74155b962077.jpg" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/60137237/224238293-5094b379-b9b9-4b49-9888-e979f0cdf48c.jpg" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/60137237/224238296-ceb25d2b-30d4-4217-8269-794a3f7e993b.jpg" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/60137237/224238299-3a05c2ea-8c80-4c57-b7e4-eb7bfbbf5deb.jpg" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/60137237/224238303-e450300b-fef9-4ce6-a986-58acf52d0a3f.jpg" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/60137237/224238308-02bb2fea-0180-4a1b-8deb-4a85d505bd14.jpg" width="100" height="100">
 
 ## Features
  - Customized test plans for various competitive exams
