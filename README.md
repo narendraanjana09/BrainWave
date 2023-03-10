@@ -2,7 +2,7 @@
 BrainWave is an AI-based test preparation app that helps you prepare for various competitive exams like JEE, UPSC, NEET, FMGE, and GATE. With a wide range of subjects and topics, BrainWave offers customized test plans to help you achieve your goals.
 
 ## Screenshots
-![Screenshot_20230304-120439_BrainWave](https://user-images.githubusercontent.com/60137237/224238279-23baa772-f44b-4ef8-aaef-0ce09a9c9677.jpg =428x810)
+<img src="https://user-images.githubusercontent.com/60137237/224238279-23baa772-f44b-4ef8-aaef-0ce09a9c9677.jpg" width="100" height="100">
 ![Screenshot_20230304-122027_BrainWave](https://user-images.githubusercontent.com/60137237/224238291-3e9c3da1-f562-4f50-a36d-74155b962077.jpg)
 ![Screenshot_20230304-122021_BrainWave](https://user-images.githubusercontent.com/60137237/224238293-5094b379-b9b9-4b49-9888-e979f0cdf48c.jpg)
 ![Screenshot_20230304-121950_BrainWave](https://user-images.githubusercontent.com/60137237/224238296-ceb25d2b-30d4-4217-8269-794a3f7e993b.jpg)
